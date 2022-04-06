@@ -3,16 +3,16 @@ html {
 }
 .main{
     background-color:  pink;
-    text-align: center;
+   
   
 }
 body{
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr; 
     grid-auto-rows: minmax(5px, auto);
     grid-template-areas: "header" "main_content" "footer";
     height: 100vh;
+    text-align: center;
     list-style-position:inside;
     font-family: fantasy
 
@@ -20,7 +20,8 @@ body{
    
 }
 head{
-    text-align: center;
+   grid-area: header;
+   font-weight: bold;
 }
 
 #gallery {
