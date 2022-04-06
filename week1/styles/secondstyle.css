@@ -13,6 +13,7 @@ body{
     grid-auto-rows: minmax(5px, auto);
     grid-template-areas: "header" "main_content" "footer";
     height: 100vh;
+    list-style-position:inside;
     font-family: fantasy
 
     
