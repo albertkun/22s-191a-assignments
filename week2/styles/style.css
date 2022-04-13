@@ -1,0 +1,78 @@
+html { 
+    background-color: pink;
+}
+.main{
+    background-color:  pink;
+  
+}
+body{
+    
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-auto-rows: minmax(5px, auto);
+    grid-template-areas: "header" "main_content" "footer";
+    height: 100vh;
+    text-align: center;
+    list-style-position:inside;
+    font-family: fantasy
+    
+   
+}
+
+header{
+    grid-area: header;
+    font-weight: bold;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+.main{
+    display: grid;
+    grid-area: main_content;
+    grid-template-areas: "mappanel" "content";
+}
+
+#map{
+    height:80vh;
+    grid-area: mappanel;
+}
+
+#contents{
+    grid-area: content;
+}
+
+ol{
+    text-align: center;
+}
+
+img {
+    border-radius: 15%;
+  }
+
+  p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 175px;
+    margin-left: 175px;
+  }
+
+.main{
+    grid-area: main_content;
+    grid-template-areas: "content" "main_map";
+    display: grid;
+}
+
+#contents{
+    grid-area: content;
+}
+#the_map{ 
+    height:80vh; 
+    grid-area: main_map;
+}
+
+h3{
+    margin-bottom: 100px;
+}
+
