@@ -10,7 +10,8 @@ addMarker(38.911999,-77.227547,'tysons corner','I used to go here every weekend 
 addMarker(40.292210,-76.671700,'hershey park','only about 3 hours away from me, pricessless experience that i experience every year')
 addMarker(38.892060,-77.019910,'smithsonian','i have been to this museum dozens of times')
 addMarker(38.147310,-75.182240,'assateague island national park','a lot of mosquitoes but a beautiful beach and wild horses!')
-
+addCircleMarker(38.147310,-75.182240,'assateague island national park','a lot of mosquitoes but a beautiful beach and wild horses!')
+addCircleMarker(34.0679701,-118.4505796,'my current apartment','i hate this place so much')
 
 // create a function to add markers
 function addMarker(lat,lng,title,message){
