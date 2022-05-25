@@ -78,7 +78,7 @@ const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgzJYv5patSDAI
 
 function addChart(){
     // create the new chart here, target the id in the html called "chart"
-    new Chart(document.getElementById("pieChartTaxBracket"), {
+    new Chart(document.getElementById("chart"), { //hotfix: albert- you needed to target the `canvas` id, which you called`chart`
         type: 'pie', //can change to 'bar','line' chart or others
         data: {
             // labels for data here
